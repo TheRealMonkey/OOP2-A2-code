@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+    <title>Order Pizza</title>
+  </head>
+  <body>
+    <did class="main">
+      <h1 class="title">Configure your pizza</h1>
+      <h2 class="sub">
+        please chosose at least one from each section since there is no
+        validation
+      </h2>
+      <div class="order">
+        <div class="left">
+          <div><h2>Type of pizza</h2></div>
+          <div class="options">
+            <div class="option">
+              <input
+                type="radio"
+                id="Cheese Pizza"
+                name="type_of_pizza"
+                value="Cheese Pizza"
+              />
+              <label for="Cheese Pizza">Cheese Pizza</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                id="Veggie Pizza"
+                name="type_of_pizza"
+                value="Veggie Pizza"
+              />
+              <label for="Veggie Pizza">Veggie Pizza</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                id="Pepperoni Pizza"
+                name="type_of_pizza"
+                value="Pepperoni Pizza"
+              />
+              <label for="Pepperoni Pizza">Pepperoni Pizza</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                id="Meat Pizza"
+                name="type_of_pizza"
+                value="Meat Pizza"
+              />
+              <label for="Meat Pizza">Meat Pizza</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                id="Margherita Pizza"
+                name="type_of_pizza"
+                value="Margherita Pizza"
+              />
+              <label for="Margherita Pizza">Margherita Pizza</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                id="BBQ Chicken Pizza"
+                name="type_of_pizza"
+                value="BBQ Chicken Pizza"
+              />
+              <label for="BBQ Chicken Pizza">BBQ Chicken Pizza</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                id="Hawaiian Pizza"
+                name="type_of_pizza"
+                value="Hawaiian Pizza"
+              />
+              <label for="Hawaiian Pizza">Hawaiian Pizza</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                id="Buffalo Pizza"
+                name="type_of_pizza"
+                value="Buffalo Pizza"
+              />
+              <label for="Buffalo Pizza">Buffalo Pizza</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                id="Supreme Pizza"
+                name="type_of_pizza"
+                value="Supreme Pizza"
+              />
+              <label for="Supreme Pizza">Supreme Pizza</label>
+            </div>
+          </div>
+          <div><h2>Sides</h2></div>
+          <div class="options">
+            
+            <div class="option">
+              <input
+                type="checkbox"
+                id="none"
+                name="sides"
+                value="none"
+              />
+              <label for="Pepperoni">none</label>
+            </div>
+            <div class="option">
+                <input
+                  type="checkbox"
+                  id="onion rings"
+                  name="sides"
+                  value="onion rings"
+                />
+                <label for="Pepperoni">onion rings</label>
+              </div>
+            <div class="option">
+              <input type="checkbox" id="salad" name="sides" value="salad" />
+              <label for="Mushroomium">salad</label>
+            </div>
+            <div class="option">
+              <input
+                type="checkbox"
+                id="garlic bread"
+                name="sides"
+                value="garlic bread"
+              />
+              <label for="Extra cheese">garlic bread</label>
+            </div>
+            <div class="option">
+              <input
+                type="checkbox"
+                id="mashed potato"
+                name="sides"
+                value="mashed potato"
+              />
+              <label for="mashed potato">mash potato</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div><h2>Size of Pizza</h2></div>
+          <div class="options">
+            <div class="option">
+              <input
+                type="radio"
+                id="small"
+                name="size_of_pizza"
+                value="small"
+              />
+              <label for="small">small</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                id="medium"
+                name="size_of_pizza"
+                value="medium"
+              />
+              <label for="medium">medium</label>
+            </div>
+            <div class="option">
+              <input
+                type="radio"
+                id="large"
+                name="size_of_pizza"
+                value="large"
+              />
+              <label for="large">large</label>
+            </div>
+          </div>
+
+          <div><h2>extra topings</h2></div>
+          <div class="options">
+            <div class="option">
+                <input
+                  type="checkbox"
+                  id="none"
+                  name="extra_topping"
+                  value="none"
+                />
+                <label for="Pepperoni">none</label>
+              </div>
+            <div class="option">
+              <input
+                type="checkbox"
+                id="Pepperoni"
+                name="extra_topping"
+                value="Pepperoni"
+              />
+              <label for="Pepperoni">Pepperoni</label>
+            </div>
+            <div class="option">
+              <input
+                type="checkbox"
+                id="Mushroom"
+                name="extra_topping"
+                value="Mushroom"
+              />
+              <label for="Mushroomium">Mushroom</label>
+            </div>
+            <div class="option">
+              <input
+                type="checkbox"
+                id="Extra cheese"
+                name="extra_topping"
+                value="Extra cheese"
+              />
+              <label for="Extra cheese">Extra cheese</label>
+            </div>
+            <div class="option">
+              <input
+                type="checkbox"
+                id="Sausage"
+                name="extra_topping"
+                value="Sausage"
+              />
+              <label for="Sausage">Sausage</label>
+            </div>
+            <div class="option">
+              <input
+                type="checkbox"
+                id="Onion"
+                name="extra_topping"
+                value="Onion"
+              />
+              <label for="Onion">Onion</label>
+            </div>
+            <div class="option">
+              <input
+                type="checkbox"
+                id="Black olives"
+                name="extra_topping"
+                value="Black olives"
+              />
+              <label for="Black olives">Black olives</label>
+            </div>
+            <div class="option">
+              <input
+                type="checkbox"
+                id="Green pepper"
+                name="extra_topping"
+                value="Green pepper"
+              />
+              <label for="Green pepper">Green pepper</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="submit">Order pizza</button>
+    </div>
+
+  </body>
+</html>

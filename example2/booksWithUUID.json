@@ -1,0 +1,37 @@
+[
+	{
+		"title": "communist manifesto",
+		"author": "Karl Marx",
+		"publisher": "the communists",
+		"date": "1848",
+		"uuid": "d7193534-5f5b-4d1f-8ded-3539ac76ba8d"
+	},
+	{
+		"title": "mein kampf",
+		"author": "Adolf Hitler",
+		"publisher": "the nazis",
+		"date": "1925",
+		"uuid": "25eec987-c910-46c6-ae44-50828cb81cdd"
+	},
+	{
+		"title": "warrior cats",
+		"author": "Erin Hunter",
+		"publisher": "cats",
+		"date": "2003",
+		"uuid": "24ebee47-d99e-4043-901d-986d7c5f5255"
+	},
+	{
+		"title": "The Bible",
+		"author": "the disciples",
+		"publisher": "the christians",
+		"date": "106",
+		"uuid": "c1e204cd-e133-48b0-a16c-04edc88b5945"
+	},
+	{
+		"title": "The Quran",
+		"author": "Muhammad",
+		"publisher": "the muslims",
+		"date": "610",
+		"uuid": "5f5677f2-6fd6-4c95-a8f5-489eafc3d280"
+	}
+]

@@ -1,0 +1,36 @@
+{
+    "books": {
+      "book": [
+        {
+          "title": "communist manifesto",
+          "author": "Karl Marx",
+          "publisher": "the communists",
+          "date": "1848"
+        },
+        {
+          "title": "mein kampf",
+          "author": "Adolf Hitler",
+          "publisher": "the nazis",
+          "date": "1925"
+        },
+        {
+          "title": "warrior cats",
+          "author": "Erin Hunter",
+          "publisher": "cats",
+          "date": "2003"
+        },
+        {
+          "title": "The Bible",
+          "author": "the disciples",
+          "publisher": "the christians",
+          "date": "106"
+        },
+        {
+          "title": "The Quran",
+          "author": "Muhammad",
+          "publisher": "the muslims",
+          "date": "610"
+        }
+      ]
+    }
+  }
